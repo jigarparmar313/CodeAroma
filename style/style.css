@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #e1edf5; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.mt_20 {
+    margin-top: 50px !important;
+}
+
+
+/* header */
+
+.header {
+    /* margin: 10px; */
+    margin: 19px 10px;
+}
+
+/* header */
+
+
+/* navbar */
+
+.navbar1 {
+    padding: 22px 10px;
+
+}
+
+.navbar1 ul {
+    float: right;
+}
+
+.navbar1 ul li {
+    float: left;
+    /* margin: 19px 10px; */
+    list-style: none;
+}
+
+.a1 {
+    font-weight: 500;
+    background-color: #5ca84f;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.navbar1 ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.navbar1 ul li a:hover {
+    font-weight: 600;
+    padding: 8px 14px;
+    background-color: #5ca84f;
+    border-radius: 9px;
+}
+
+.navbar1 ul li a:nth-last-child() {
+    font-weight: 500;
+    padding: 8px 14px;
+    background-color: #015ca5;
+    border-radius: 9px;
+}
+
+/* navbar */
+
+/* contact details */
+
+.fa-phone,
+.fa-envelope {
+    color: #5ca84f;
+}
+
+
+.contact_details {
+    font-size: 15px;
+    font-weight: 600;
+    border-left: 2px solid black;
+    margin: 10px 2px;
+}
+
+.contact_details i {
+    margin-left: 5px;
+}
+
+/* contact details */
+
+/* dropdown */
+
+
+/* home_about  */
+
+.home_about {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.home_about h1 {
+    font-weight: 900;
+}
+
+.home_about h5 {
+    color: #015ca5;
+    font-weight: 600;
+}
+
+.home_about p {
+    font-size: 15px;
+    color: #000;
+    font-weight: bolder;
+    line-height: 28px;
+    font-family: 'open sans';
+}
+
+
+
+/* services */
+
+.home_service_logo {
+    width: 100%;
+    margin: auto;
+    border-right: 1px solid #ccc;
+    min-height: 290px;
+    padding: 25px;
+}
+
+.home_service_logo3 {
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    min-height: 290px;
+}
+
+.im_1_1 h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #5ca84f;
+}
+
+/* email  */
+
+.email_bg{
+    background-image: url(/img/email_bg/callus.webp);
+    min-height: 380px;
+}
+
+.call_us_text{
+    margin-top: 100px;
+}
+
+.call_us_text h1 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'open sans';
+    
+}
